@@ -11,7 +11,7 @@ import { AddTaskScreen } from './addtask';
 
 const Stack = createNativeStackNavigator();
 
-const IP = 'http://192.168.15.11'; // coloque seu IP aqui
+const IP = 'http://192.168.0.102'; // coloque seu IP aqui
 
 // Tela inicial - status dos microsserviços
 function HomeScreen({ navigation }) {

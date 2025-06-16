@@ -13,7 +13,7 @@ export function AddTaskScreen({ navigation }) {
       return;
     }
     try {
-      await axios.post(`${IP}:3001/tasks`, { name });
+      await axios.post(`${IP}:3002/tasks`, { name });
       Alert.alert('Sucesso', 'Tarefa criada!');
       setName('');
       navigation.goBack();
