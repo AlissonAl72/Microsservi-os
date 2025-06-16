@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { View, Text, TextInput, Button, Alert, StyleSheet } from 'react-native';
 import axios from 'axios';
 
-const IP = 'http://192.168.15.11';
+const IP = 'http://10.2.45.214';
 
 export function AddUserScreen({ navigation }) {
   const [name, setName] = useState('');
